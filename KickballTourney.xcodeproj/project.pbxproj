@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2323022883723B00A287E6 /* KickballTourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2323012883723B00A287E6 /* KickballTourneyApp.swift */; };
+		BF2323042883723B00A287E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2323032883723B00A287E6 /* ContentView.swift */; };
+		BF2323062883723D00A287E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2323052883723D00A287E6 /* Assets.xcassets */; };
+		BF2323092883723D00A287E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2323082883723D00A287E6 /* Preview Assets.xcassets */; };
+		BF2323132883723D00A287E6 /* KickballTourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2323122883723D00A287E6 /* KickballTourneyTests.swift */; };
+		BF23231D2883723D00A287E6 /* KickballTourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23231C2883723D00A287E6 /* KickballTourneyUITests.swift */; };
+		BF23231F2883723D00A287E6 /* KickballTourneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23231E2883723D00A287E6 /* KickballTourneyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF23230F2883723D00A287E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2322F62883723B00A287E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2322FD2883723B00A287E6;
+			remoteInfo = KickballTourney;
+		};
+		BF2323192883723D00A287E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2322F62883723B00A287E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2322FD2883723B00A287E6;
+			remoteInfo = KickballTourney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2322FE2883723B00A287E6 /* KickballTourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickballTourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2323012883723B00A287E6 /* KickballTourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickballTourneyApp.swift; sourceTree = "<group>"; };
+		BF2323032883723B00A287E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF2323052883723D00A287E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2323082883723D00A287E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF23230E2883723D00A287E6 /* KickballTourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickballTourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2323122883723D00A287E6 /* KickballTourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickballTourneyTests.swift; sourceTree = "<group>"; };
+		BF2323182883723D00A287E6 /* KickballTourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickballTourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF23231C2883723D00A287E6 /* KickballTourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickballTourneyUITests.swift; sourceTree = "<group>"; };
+		BF23231E2883723D00A287E6 /* KickballTourneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickballTourneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2322FB2883723B00A287E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF23230B2883723D00A287E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2323152883723D00A287E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2322F52883723B00A287E6 = {
+			isa = PBXGroup;
+			children = (
+				BF2323002883723B00A287E6 /* KickballTourney */,
+				BF2323112883723D00A287E6 /* KickballTourneyTests */,
+				BF23231B2883723D00A287E6 /* KickballTourneyUITests */,
+				BF2322FF2883723B00A287E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2322FF2883723B00A287E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2322FE2883723B00A287E6 /* KickballTourney.app */,
+				BF23230E2883723D00A287E6 /* KickballTourneyTests.xctest */,
+				BF2323182883723D00A287E6 /* KickballTourneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2323002883723B00A287E6 /* KickballTourney */ = {
+			isa = PBXGroup;
+			children = (
+				BF2323012883723B00A287E6 /* KickballTourneyApp.swift */,
+				BF2323032883723B00A287E6 /* ContentView.swift */,
+				BF2323052883723D00A287E6 /* Assets.xcassets */,
+				BF2323072883723D00A287E6 /* Preview Content */,
+			);
+			path = KickballTourney;
+			sourceTree = "<group>";
+		};
+		BF2323072883723D00A287E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF2323082883723D00A287E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF2323112883723D00A287E6 /* KickballTourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2323122883723D00A287E6 /* KickballTourneyTests.swift */,
+			);
+			path = KickballTourneyTests;
+			sourceTree = "<group>";
+		};
+		BF23231B2883723D00A287E6 /* KickballTourneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF23231C2883723D00A287E6 /* KickballTourneyUITests.swift */,
+				BF23231E2883723D00A287E6 /* KickballTourneyUITestsLaunchTests.swift */,
+			);
+			path = KickballTourneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2322FD2883723B00A287E6 /* KickballTourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2323222883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourney" */;
+			buildPhases = (
+				BF2322FA2883723B00A287E6 /* Sources */,
+				BF2322FB2883723B00A287E6 /* Frameworks */,
+				BF2322FC2883723B00A287E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KickballTourney;
+			productName = KickballTourney;
+			productReference = BF2322FE2883723B00A287E6 /* KickballTourney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF23230D2883723D00A287E6 /* KickballTourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2323252883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourneyTests" */;
+			buildPhases = (
+				BF23230A2883723D00A287E6 /* Sources */,
+				BF23230B2883723D00A287E6 /* Frameworks */,
+				BF23230C2883723D00A287E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2323102883723D00A287E6 /* PBXTargetDependency */,
+			);
+			name = KickballTourneyTests;
+			productName = KickballTourneyTests;
+			productReference = BF23230E2883723D00A287E6 /* KickballTourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2323172883723D00A287E6 /* KickballTourneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2323282883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourneyUITests" */;
+			buildPhases = (
+				BF2323142883723D00A287E6 /* Sources */,
+				BF2323152883723D00A287E6 /* Frameworks */,
+				BF2323162883723D00A287E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF23231A2883723D00A287E6 /* PBXTargetDependency */,
+			);
+			name = KickballTourneyUITests;
+			productName = KickballTourneyUITests;
+			productReference = BF2323182883723D00A287E6 /* KickballTourneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2322F62883723B00A287E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BF2322FD2883723B00A287E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BF23230D2883723D00A287E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BF2322FD2883723B00A287E6;
+					};
+					BF2323172883723D00A287E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BF2322FD2883723B00A287E6;
+					};
+				};
+			};
+			buildConfigurationList = BF2322F92883723B00A287E6 /* Build configuration list for PBXProject "KickballTourney" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2322F52883723B00A287E6;
+			productRefGroup = BF2322FF2883723B00A287E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2322FD2883723B00A287E6 /* KickballTourney */,
+				BF23230D2883723D00A287E6 /* KickballTourneyTests */,
+				BF2323172883723D00A287E6 /* KickballTourneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2322FC2883723B00A287E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2323092883723D00A287E6 /* Preview Assets.xcassets in Resources */,
+				BF2323062883723D00A287E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF23230C2883723D00A287E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2323162883723D00A287E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2322FA2883723B00A287E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2323042883723B00A287E6 /* ContentView.swift in Sources */,
+				BF2323022883723B00A287E6 /* KickballTourneyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF23230A2883723D00A287E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2323132883723D00A287E6 /* KickballTourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2323142883723D00A287E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF23231F2883723D00A287E6 /* KickballTourneyUITestsLaunchTests.swift in Sources */,
+				BF23231D2883723D00A287E6 /* KickballTourneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2323102883723D00A287E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2322FD2883723B00A287E6 /* KickballTourney */;
+			targetProxy = BF23230F2883723D00A287E6 /* PBXContainerItemProxy */;
+		};
+		BF23231A2883723D00A287E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2322FD2883723B00A287E6 /* KickballTourney */;
+			targetProxy = BF2323192883723D00A287E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF2323202883723D00A287E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF2323212883723D00A287E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2323232883723D00A287E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KickballTourney/Preview Content\"";
+				DEVELOPMENT_TEAM = 755RTC79Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2323242883723D00A287E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KickballTourney/Preview Content\"";
+				DEVELOPMENT_TEAM = 755RTC79Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF2323262883723D00A287E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickballTourney.app/KickballTourney";
+			};
+			name = Debug;
+		};
+		BF2323272883723D00A287E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickballTourney.app/KickballTourney";
+			};
+			name = Release;
+		};
+		BF2323292883723D00A287E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KickballTourney;
+			};
+			name = Debug;
+		};
+		BF23232A2883723D00A287E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Sobol.KickballTourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KickballTourney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2322F92883723B00A287E6 /* Build configuration list for PBXProject "KickballTourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2323202883723D00A287E6 /* Debug */,
+				BF2323212883723D00A287E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2323222883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2323232883723D00A287E6 /* Debug */,
+				BF2323242883723D00A287E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2323252883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2323262883723D00A287E6 /* Debug */,
+				BF2323272883723D00A287E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2323282883723D00A287E6 /* Build configuration list for PBXNativeTarget "KickballTourneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2323292883723D00A287E6 /* Debug */,
+				BF23232A2883723D00A287E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2322F62883723B00A287E6 /* Project object */;
+}
